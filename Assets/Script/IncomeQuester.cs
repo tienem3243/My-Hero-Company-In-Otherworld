@@ -6,19 +6,21 @@ using UnityEngine.InputSystem;
 public class IncomeQuester : CustomBehaviour
 {
     Animator anim;
-   
+    [SerializeField] SpriteRenderer shade;
+
     private void Start()
     {
         TryGetComponent<Animator>(out anim);
     }
-    public void Come()
+    public Renderer GetVisual()
     {
-        anim.SetTrigger("Come");
+        return renderer;
     }
-    public void Out()
+    public void SetVisual(Sprite sprite)
     {
-        anim.SetTrigger("Out");
+        SpriteRenderer spriteRenderer = (SpriteRenderer)renderer;
+        spriteRenderer.sprite = sprite;
+        shade.sprite = sprite;
     }
-
   
 }

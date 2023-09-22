@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DoccumentManager : MonoBehaviourSingleton<DoccumentManager>
 {
+    private const float originalDepth = 1f;
     public List<Doccument> doccuments = new();
     public Doccument currentDrag;
    
@@ -18,7 +19,7 @@ public class DoccumentManager : MonoBehaviourSingleton<DoccumentManager>
 
     private void RecalculatePos()
     {
-        float i = 1f;
+        float i = originalDepth;
         doccuments.ForEach(x =>
         {
             var trans = x.transform.position;

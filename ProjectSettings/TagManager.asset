@@ -9,6 +9,7 @@ TagManager:
   - InComeQuester
   - ReturnZone
   - Doccument
+  - WorkingTable
   layers:
   - Default
   - TransparentFX
@@ -51,4 +52,7 @@ TagManager:
     locked: 0
   - name: Table2
     uniqueID: 1112882181
+    locked: 0
+  - name: OverAll
+    uniqueID: 1284047843
     locked: 0

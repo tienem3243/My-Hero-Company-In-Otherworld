@@ -26,10 +26,7 @@ public class Doccument : CustomBehaviour, IDraggable
     {
         isDragging = true;
 
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 dir = mousePos - (Vector2)transform.position;
-        transform.position = new Vector3(mousePos.x, mousePos.y, transform.position.z);
-
+        
 
     }
 
@@ -51,6 +48,7 @@ public class Doccument : CustomBehaviour, IDraggable
                 transform.DOMove(transform.position + Vector3.down * 4, 0.7f)
                     .OnComplete(() => gameObject.SetActive(false));
             }
+
         }
        
     }
