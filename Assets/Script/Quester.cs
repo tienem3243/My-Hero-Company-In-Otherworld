@@ -7,7 +7,7 @@ public class Quester
 {
     [SerializeField] Sprite portrail;
     [SerializeField] string name;
-    [SerializeField] List<IndentificationCard> card;
+    public List<IndentificationCard> card;
 
     public Quester(Sprite sprite, string name, List<IndentificationCard> card)
     {

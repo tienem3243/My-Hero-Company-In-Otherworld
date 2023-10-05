@@ -267,7 +267,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 1710504435
   m_SortingLayer: 1
-  m_SortingOrder: -38
+  m_SortingOrder: 6
   m_SortAtRoot: 0
 --- !u!1 &3653934067939225256
 GameObject:
@@ -305,7 +305,7 @@ Transform:
   - {fileID: 7335515474125667230}
   - {fileID: 4838571394532427657}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9081692913486924871
 MonoBehaviour:
@@ -1004,7 +1004,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1112882181
   m_SortingLayer: 2
-  m_SortingOrder: 4
+  m_SortingOrder: 6
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
   m_FlipX: 0

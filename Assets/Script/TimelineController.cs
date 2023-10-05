@@ -14,6 +14,7 @@ public class TimelineController : MonoBehaviour
     public void Play()
     {
         playableDirector.ForEach(x => x.Play());
+       
     }
     public void PlayIndex(int index)
     {
